@@ -2,7 +2,10 @@
 
 const planet = {
     name: "Venus",
-    discovered: "Prehistory",
+    discovered: {
+        date: 1610,
+        by: ["Galileo Galilei"]
+    },
     mass: "4.8675 x 10^24 kg",
     volume: "9.2843 x 10^11 km^3",
     orbit: "108 million km",
